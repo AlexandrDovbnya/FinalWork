@@ -16,7 +16,7 @@ string[] FindLessThan(string[] input, int n)
         if (input[i].Length <= n)
         {
             output[j] = input[i];
-            j++;
+            j++; 
         }
     }
 
